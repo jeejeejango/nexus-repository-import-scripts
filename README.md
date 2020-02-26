@@ -18,6 +18,7 @@ Literally anything else. You want security? Better set it up yourself.
   * Watch the money roll in and the haters start askin
   * You'll need to obtain your APIKEY for Nexus Repository, and obviously set -r to the repo path you want to use
 * npm
+  * use npm-offline-packager to download the package
   * npm login --registry http://localhost:8084/repository/npm-internal/
   * cd rootdirectorythatcontainsallnpmmadness
   * ./npmimport.sh -r http://localhost:8084/repository/npm-internal/
